@@ -52,7 +52,7 @@ body { display: flex; flex-direction: column; }
 }
 
 .container {
-    max-width: 48em;
+    max-width: 60em;
     padding: 0 0.5em;
     margin: 0 auto;
 }

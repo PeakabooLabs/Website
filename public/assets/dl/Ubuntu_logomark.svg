@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="0 0 16.000004 15.385745"
+   id="svg4"
+   sodipodi:docname="Ubuntu_logomark.svg"
+   width="16.000004"
+   height="15.385745"
+   inkscape:export-filename="ubuntu.png"
+   inkscape:export-xdpi="768"
+   inkscape:export-ydpi="768"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="67.814929"
+     inkscape:cx="7.9628484"
+     inkscape:cy="7.6089441"
+     inkscape:window-width="2560"
+     inkscape:window-height="1371"
+     inkscape:window-x="3840"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <g
+     fill="#e95420"
+     id="g4">
+    <circle
+       class="cls-2"
+       cx="2.269685"
+       cy="7.2483501"
+       r="2.269685"
+       id="circle1" />
+    <circle
+       class="cls-2"
+       cx="11.74588"
+       cy="2.269685"
+       r="2.269685"
+       id="circle2" />
+    <path
+       class="cls-2"
+       d="M 7.394781,13.1056 C 5.752659,12.749981 4.392939,11.704043 3.618945,10.229271 3.012301,10.501215 2.332441,10.58489 1.673501,10.469836 c 0.9308847,2.290604 2.907707,3.943186 5.334283,4.466155 0.5334283,0.115053 1.077316,0.16735 1.610744,0.16735 C 8.2001528,14.559454 7.9700465,13.890053 7.9491277,13.199734 7.7608589,13.178816 7.5725901,13.147437 7.394781,13.1056 Z"
+       id="path2" />
+    <circle
+       class="cls-2"
+       cx="11.23337"
+       cy="13.11606"
+       r="2.269685"
+       id="circle3" />
+    <path
+       class="cls-2"
+       d="m 14.39211,12.27931 c 0.711237,-0.889047 1.202828,-1.945444 1.443394,-3.064598 0.418375,-1.955904 0.03138,-4.005942 -1.077316,-5.668984 -0.261485,0.6171034 -0.711238,1.140072 -1.276044,1.495691 0.617103,1.160991 0.805372,2.489332 0.522969,3.775836 -0.135972,0.6275627 -0.376538,1.223747 -0.711238,1.757175 0.533428,0.439294 0.909966,1.025019 1.087775,1.69442 z"
+       id="path3" />
+    <path
+       class="cls-2"
+       d="m 2.091876,3.995483 h 0.1778095 c 0.2301063,0 0.4602126,0.020919 0.690319,0.073216 0.3660782,0.083675 0.7216971,0.2196469 1.035478,0.4183751 1.025019,-1.474772 2.677601,-2.35336 4.466155,-2.384738 0,-0.1673501 0.031378,-0.3451595 0.073216,-0.5125096 0.1045934,-0.4915911 0.313781,-0.9413444 0.617103,-1.328341 -2.85541,-0.2301063 -5.637605,1.244666 -7.049622,3.744458 z"
+       id="path4" />
+  </g>
+</svg>
