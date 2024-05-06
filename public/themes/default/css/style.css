@@ -63,7 +63,7 @@ body { display: flex; flex-direction: column; }
 
 /*** BASIC LAYOUT: HEADER ***/
 
-#header { background: #388E3C; }
+#header { background: #1a9752; }
 
 #header h1 {
     float: left;
@@ -190,7 +190,7 @@ p, hr, table, .table-responsive, ol, ul, dl, pre, blockquote, fieldset {
 }
 
 a {
-    color: #388E3C;
+    color: #1a9752;
     text-decoration: none;
     -webkit-transition: color .2s ease-in;
             transition: color .2s ease-in;
@@ -317,8 +317,8 @@ input:not([type="checkbox"]):not([type="radio"]), button, select, textarea {
     font-size: 1rem;
 }
 input:focus:not([type="checkbox"]):not([type="radio"]), button:focus, select:focus, textarea:focus {
-    border-color: #388E3C;
-    box-shadow: 0 0 8px #388E3C;
+    border-color: #1a9752;
+    box-shadow: 0 0 8px #1a9752;
 }
 input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus, button:focus,
 input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:hover {
