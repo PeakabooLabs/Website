@@ -240,7 +240,7 @@ body { display: flex; flex-direction: column; }
         font-size: 90%;
     }
 
-    #container > h1 {
+    .container > h1 {
         text-align: center;
     }
 }
