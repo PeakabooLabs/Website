@@ -48,7 +48,7 @@ body { display: flex; flex-direction: column; }
 #header, #footer { flex: 0 0 auto; }
 
 #main {
-    padding: 3em 0 3em 0;
+    padding: 2em 0 2em 0;
 }
 
 .container {
@@ -137,7 +137,6 @@ body { display: flex; flex-direction: column; }
 
 #splash-title {
     text-align: center;
-    margin-bottom: 3em;
 }
 
 #splash-text {
