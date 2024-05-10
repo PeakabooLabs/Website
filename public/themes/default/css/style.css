@@ -163,27 +163,6 @@ body { display: flex; flex-direction: column; }
     font-size: 140%;
 }
 
-/*** BASIC LAYOUT: MOBILE CHANGES ***/
-
-@media only screen and (max-width: 780px) {
-    #nav ul li {
-        display: inline-block;
-        margin: 0 .1em 0 .1em;
-    }
-
-    #nav ul {
-        text-align: center;
-    }
-
-    #splash-title-wrap {
-        font-size: 1.8em;
-   }
-
-    #splash-text {
-        font-size: 90%;
-    }
-
-}
 
 /*** BASIC LAYOUT: DOWNLOADS ***/
 
@@ -204,9 +183,10 @@ body { display: flex; flex-direction: column; }
     text-align: center;
 }
 
-/*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
+/*** BASIC LAYOUT: MOBILE ***/
 
-@media (max-width: 767px) {
+@media (max-width: 780px) {
+   
     #main { padding: 2em 0 1em; }
 
     #header h1 {
@@ -222,9 +202,10 @@ body { display: flex; flex-direction: column; }
         padding-bottom: 1em;
     }
     #nav ul li {
-        display: block;
+        display: inline-block;
         margin-left: 0;
         text-align: center;
+        margin: 0 .1em 0 .1em;
     }
     #nav ul li a {
         display: block;
@@ -245,6 +226,14 @@ body { display: flex; flex-direction: column; }
 
     #footer p { padding: 1em 0; }
     #footer .social { padding: 0.5em 0 0.5em 1em; }
+
+    #splash-title-wrap {
+        font-size: 1.8em;
+   }
+
+    #splash-text {
+        font-size: 90%;
+    }
 }
 
 /*** TYPOGRAPHY ***/
