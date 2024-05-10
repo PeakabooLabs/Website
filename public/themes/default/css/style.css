@@ -48,7 +48,7 @@ body { display: flex; flex-direction: column; }
 #header, #footer { flex: 0 0 auto; }
 
 #main {
-    padding: 5em 0 4em;
+    padding: 3em 0 3em 0;
 }
 
 .container {
@@ -125,12 +125,10 @@ body { display: flex; flex-direction: column; }
 /*** BASIC LAYOUT: SPLASH ***/
 
 #splash-container {
-    margin: 30px 0px 60px 0px;
-
     /* Like container, but wider */
     max-width: 72em;
     padding: 0 0.5em;
-    margin: 0 auto;
+    margin: 0px auto 6em auto;
 }
 
 #splash-links {
@@ -139,6 +137,7 @@ body { display: flex; flex-direction: column; }
 
 #splash-title {
     text-align: center;
+    margin-bottom: 3em;
 }
 
 #splash-text {
