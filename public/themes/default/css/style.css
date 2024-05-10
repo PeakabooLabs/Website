@@ -139,6 +139,10 @@ body { display: flex; flex-direction: column; }
     text-align: center;
 }
 
+#splash-title-wrap {
+     display: inline-block;   
+}
+
 #splash-text {
     text-align: center;
 }
@@ -157,6 +161,28 @@ body { display: flex; flex-direction: column; }
     color: white;
     font-weight: bold;
     font-size: 140%;
+}
+
+/*** BASIC LAYOUT: MOBILE CHANGES ***/
+
+@media only screen and (max-width: 780px) {
+    #nav ul li {
+        display: inline-block;
+        margin: 0 .1em 0 .1em;
+    }
+
+    #nav ul {
+        text-align: center;
+    }
+
+    #splash-title-wrap {
+        font-size: 1.8em;
+   }
+
+    #splash-text {
+        font-size: 90%;
+    }
+
 }
 
 /*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
