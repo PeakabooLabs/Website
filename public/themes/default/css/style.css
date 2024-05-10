@@ -239,6 +239,10 @@ body { display: flex; flex-direction: column; }
     #splash-text {
         font-size: 90%;
     }
+
+    #container > h1 {
+        text-align: center;
+    }
 }
 
 /*** TYPOGRAPHY ***/
