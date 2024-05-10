@@ -140,10 +140,12 @@ body { display: flex; flex-direction: column; }
 
 .splash-button {
     border-radius: 10px;
-    background-color: #1a9752;
-    font-weight: bold;
-    font-size: 150%;
     display: inline-block;
+    padding: 5px 16px 6px 16px;
+    background: #1a9752;
+    color: white;
+    font-weight: bold;
+    font-size: 140%;
 }
 
 /*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
