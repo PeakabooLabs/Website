@@ -63,13 +63,13 @@
 <p>Peakaboo allows users to identify the spectral origins of the XRF spectrum using a technique that fits all components of the K, L, or M spectrum including escape peaks and pileup peaks, and then plots their spatial intensity distributions as maps.</p>
 <p><img src="/assets/main-screenshot.png" alt="Peakaboo" /></p>
 <h2>Analysis Features</h2>
-<h3>Noise Reduction</h3>
-<p>Noise reduction is essential since the spectra are taken at very brief intervals while the sample is scanned in the X-Ray beam. The software provides a number of mathematical filters that are used in noise reduction or in background attenuation or removal. Noise filters include moving average, fast Fourier transform (FFT) low pass, Savitsky-Golay, and others.</p>
-<p>Where applicable, noise removal filter parameters can be adjusted to suit the data in question. Best noise reduction with minimum change in peak shape is often achieved using a Savitsky-Golay filter.</p>
-<h3>Background Removal</h3>
-<p>Background removal or reduction is particularly important for spectra acquired using white radiation. Peakaboo has a number of background removal filters of varying sophistication and performance. Varying levels of background can be removed.</p>
 <h3>Peak Fitting</h3>
 <p>The spectra produced are fitted with several K, L, or M lines for each element. The line positions and relative intensities for each line series were taken from several tabulated sources, including <a href="https://github.com/tschoonj/xraylib">Xraylib</a>. For fitting of the spectral peaks, a Pseudo-Voigt function is used. Thus, the identification of a particular element requires a close fit of multiple lines in the spectrum, each with its own shape.</p>
+<h4>Noise Reduction</h4>
+<p>Noise reduction is essential since the spectra are taken at very brief intervals while the sample is scanned in the X-Ray beam. The software provides a number of mathematical filters that are used in noise reduction or in background attenuation or removal. Noise filters include moving average, fast Fourier transform (FFT) low pass, Savitsky-Golay, and others.</p>
+<p>Where applicable, noise removal filter parameters can be adjusted to suit the data in question. Best noise reduction with minimum change in peak shape is often achieved using a Savitsky-Golay filter.</p>
+<h4>Background Removal</h4>
+<p>Background removal or reduction is particularly important for spectra acquired using white radiation. Peakaboo has a number of background removal filters of varying sophistication and performance. Varying levels of background can be removed.</p>
 <h3>Results Mapping</h3>
 <p>Once peak fitting has occured, one or two dimentional data sets can be mapped to show the distribution of the selected elements. Peakaboo can show individual elements, composites of several elements, ratios of sets of elements, or overlays of up to four sets of elements.</p>
 <h3>User Extendable</h3>
@@ -90,7 +90,7 @@
 <li>2 gigabyte of free disk space (for temporary work files)</li>
 </ul>
 <h3>Mininum System Requirements</h3>
-<p>Memory space is the only real limiting factor for Peakaboo. It needs to have at least 256 megabytes (0.25 gigabytes) allocated to its JVM in order to work well with larger data sets. Peakaboo can run just about anywhere, though. Here's a screenshot of Peakaboo running on a Raspberry Pi 2!</p>
+<p>Memory space is the only real limiting factor for Peakaboo. It needs to have at least 256 megabytes (0.25 gigabytes) allocated to its JVM in order to work well with larger data sets. Peakaboo can run just about anywhere, though. Here's a screenshot of Peakaboo 5 running on a Raspberry Pi 2!</p>
 <p><img src="/assets/peakaboo-pi.png" alt="Peakaboo on Pi" /></p>
         </div>
     </div>
