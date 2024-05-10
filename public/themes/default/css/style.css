@@ -185,6 +185,25 @@ body { display: flex; flex-direction: column; }
 
 }
 
+/*** BASIC LAYOUT: DOWNLOADS ***/
+
+.downloads {
+    text-align:center; 
+    width: 100%; 
+    display: inline-block;
+}
+
+.download-icon {
+    display: inline-block; 
+    padding: 25px;
+}
+
+.download-icon-label {
+    display: inline-block; 
+    width: 100%; 
+    text-align: center;
+}
+
 /*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
 
 @media (max-width: 767px) {
