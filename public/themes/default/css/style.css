@@ -138,6 +138,14 @@ body { display: flex; flex-direction: column; }
     width: 25%;
 }
 
+.splash-button {
+    border-radius: 10px;
+    background-color: #1a9752;
+    font-weight: bold;
+    font-size: 150%;
+    display: inline-block;
+}
+
 /*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
 
 @media (max-width: 767px) {
