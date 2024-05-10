@@ -128,14 +128,8 @@ body { display: flex; flex-direction: column; }
     
 }
 
-#splash-left {
-    float: left;
-    width: 75%;
-}
-
-#splash-right {
-    float: right;
-    width: 25%;
+.splash-image {
+    
 }
 
 .splash-button {
