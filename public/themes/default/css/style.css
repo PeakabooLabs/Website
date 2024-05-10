@@ -125,17 +125,18 @@ body { display: flex; flex-direction: column; }
 /*** BASIC LAYOUT: SPLASH ***/
 
 #splash-container {
-    
+    margin: 30px 0px 60px 0px;
 }
 
-.splash-image {
-    
+.splash-links {
+    text-align: center;
 }
 
 .splash-button {
     border-radius: 10px;
     display: inline-block;
     padding: 5px 16px 6px 16px;
+    margin: 15px 0px 0px 0px;
     background: #1a9752;
     color: white;
     font-weight: bold;
