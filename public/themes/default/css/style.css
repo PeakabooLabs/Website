@@ -126,6 +126,11 @@ body { display: flex; flex-direction: column; }
 
 #splash-container {
     margin: 30px 0px 60px 0px;
+
+    /* Like container, but wider */
+    max-width: 72em;
+    padding: 0 0.5em;
+    margin: 0 auto;
 }
 
 #splash-links {
