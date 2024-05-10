@@ -243,6 +243,15 @@ body { display: flex; flex-direction: column; }
     .container > h1 {
         text-align: center;
     }
+
+    .download-icon {
+        padding: 10px;
+    }
+
+    .download-icon img {
+        max-width: 50%;
+    }
+
 }
 
 /*** TYPOGRAPHY ***/
