@@ -68,6 +68,7 @@ body { display: flex; flex-direction: column; }
 #header h1, #header #logo {
     float: left;
     font-size: 2rem;
+    font-weight: bold;
     margin: 0;
     padding: 1em 1em 1em 0;
 }
