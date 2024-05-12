@@ -65,13 +65,13 @@ body { display: flex; flex-direction: column; }
 
 #header { background: #1a9752; }
 
-#header h1 {
+#header h1, #header #logo {
     float: left;
     font-size: 2rem;
     margin: 0;
     padding: 1em 1em 1em 0;
 }
-#header h1 a, #header h1 a:hover { color: #fff; }
+#header h1 a, #header h1 a:hover, #header #logo a, #header #logo a:hover { color: #fff; }
 
 #nav {
     text-align: right;
@@ -189,7 +189,7 @@ body { display: flex; flex-direction: column; }
    
     #main { padding: 2em 0 1em; }
 
-    #header h1 {
+    #header h1, #header #logo {
         float: none;
         padding: 0.5em 0;
     }
