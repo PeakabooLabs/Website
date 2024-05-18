@@ -90,7 +90,7 @@ body { display: flex; flex-direction: column; }
     font-weight: bold;
 }
 
-#nav a, #nav-toggle { color: #afe1da; }
+#nav a, #nav-toggle { color: #d8ebe1; }
 #nav .active a, #nav a:hover, #nav-toggle:hover { color: #fff; }
 
 #nav-toggle { display: none; }
@@ -280,7 +280,7 @@ p, hr, table, .table-responsive, ol, ul, dl, pre, blockquote, fieldset {
 }
 
 a {
-    color: #1a9752;
+    color: #0d8040;
     text-decoration: none;
     -webkit-transition: color .2s ease-in;
             transition: color .2s ease-in;
