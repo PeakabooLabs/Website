@@ -153,15 +153,23 @@ body { display: flex; flex-direction: column; }
     display: inline-block;
 }
 
-.splash-button {
+.button {
     border-radius: 10px;
     display: inline-block;
-    padding: .5em 3em .5em 3em;
-    margin: 1.5em 0 0 0;
-    background: #1a9752;
+    padding: .5em 0em .5em 0em;
+    margin: 1.5em 0.5em 0 0.5em;
+    background: #7d9789;
     color: white;
     font-weight: bold;
     font-size: 140%;
+}
+
+.second-button {
+    background: #5080df;
+}
+
+.splash-button {
+    background: #1a9752;
 }
 
 
