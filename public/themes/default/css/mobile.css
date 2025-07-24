@@ -1,0 +1,13 @@
+#logo {
+    display: block;
+    text-align: center;
+    padding: 0.4em 0 0.3em 0;
+}
+
+#logo img {
+    vertical-align: -30%;
+}
+
+#nav ul {
+    padding-bottom: 0em;
+}
