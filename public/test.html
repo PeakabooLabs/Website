@@ -83,16 +83,20 @@
             </div>
         </div>
         <div class="container">
-                        
+
+            <h2>What is Peakaboo?</h2>
+            <p>Peakaboo is a free, open-source tool for analyzing X-ray fluorescence (XRF) spectra. It helps you fit peaks, reduce noise, and create 2D maps showing where different elements are located in your samples. The software is built to be straightforward to use, with a gentle learning curve that works well for researchers, students, and industry alike.</p>
+          
             <h2>Analysis Features</h2>
             <h3>Peak Fitting</h3>
             <p>The spectra produced are fitted with several K, L, or M lines for each element. The line positions and relative intensities for each line series were taken from several tabulated sources, including <a href="https://github.com/tschoonj/xraylib">Xraylib</a>. For fitting of the spectral peaks, a Pseudo-Voigt function is used. Thus, the identification of a particular element requires a close fit of multiple lines in the spectrum, each with its own shape.</p>
-            <h4>Noise Reduction</h4>
+            <h3>Noise Reduction</h3>
             <p>Noise reduction is essential since the spectra are taken at very brief intervals while the sample is scanned in the X-Ray beam. The software provides a number of mathematical filters that are used in noise reduction or in background attenuation or removal. Noise filters include moving average, fast Fourier transform (FFT) low pass, Savitsky-Golay, and others.</p>
             <p>Where applicable, noise removal filter parameters can be adjusted to suit the data in question. Best noise reduction with minimum change in peak shape is often achieved using a Savitsky-Golay filter.</p>
-            <h4>Background Removal</h4>
+            <h3>Background Removal</h3>
             <p>Background removal or reduction is particularly important for spectra acquired using white radiation. Peakaboo has a number of background removal filters of varying sophistication and performance. Varying levels of background can be removed.</p>
             <h3>Results Mapping</h3>
+            <img style="float: right; padding-left: 5px; padding-bottom: 5px;" src="/assets/main-screenshot.png">
             <p>Once peak fitting has occured, one or two dimentional data sets can be mapped to show the distribution of the selected elements. Peakaboo can show individual elements, composites of several elements, ratios of sets of elements, or overlays of up to four sets of elements.</p>
             <h3>User Extendable</h3>
             <p>Peakaboo allows users who are comfortable with Java programming to extend Peakaboo in three ways:</p>
