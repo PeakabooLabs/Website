@@ -1,13 +1,59 @@
-#logo {
+#header #logo {
     display: block;
     text-align: center;
-    padding: 0.4em 0 0.3em 0;
+    padding: 0.5em 0 0.2em 0;
 }
 
 #logo img {
     vertical-align: -30%;
 }
 
-#nav ul {
-    padding-bottom: 0em;
-}
+
+
+
+    #main { padding: 2em 0 1em; }
+
+    #nav {
+        clear: right;
+        padding: 0;
+    }
+    #nav ul {
+        text-align: center;
+    }
+    #nav ul li {
+        display: inline-block;
+        margin-left: 0;
+        text-align: center;
+        margin: 0 .1em 0 .1em;
+    }
+    #nav ul li a {
+        display: block;
+        padding: 0.5em 0;
+    }
+
+    #footer p { padding: 1em 0; }
+    #footer .social { padding: 0.5em 0 0.5em 1em; }
+
+    #splash-title h1 {
+        line-height: 3rem;
+    }
+
+    #splash-title-wrap {
+        font-size: 1.8rem;
+    }
+
+    #splash-text {
+        font-size: 90%;
+    }
+
+    .container > h1 {
+        text-align: center;
+    }
+
+    .download-icon {
+        padding: 10px;
+    }
+
+    .download-icon img {
+        max-width: 50%;
+    }
