@@ -49,6 +49,7 @@ body { display: flex; flex-direction: column; }
 
 #main {
     padding: 2em 0 2em 0;
+    margin-top: 6em;
 }
 
 .container {
@@ -63,20 +64,27 @@ body { display: flex; flex-direction: column; }
 
 /*** BASIC LAYOUT: HEADER ***/
 
-#header { background: #1a9752; }
+#header {
+    background: #26a269;
+    position: fixed;
+    width: 100%;
+    border-bottom: 4px solid #ffc040;
+}
 
 #header h1, #header #logo {
     float: left;
     font-size: 2rem;
     font-weight: bold;
     margin: 0;
-    padding: 1em 1em 1em 0;
+    padding: 0.5em 1em 0.5em 0;
 }
 #header h1 a, #header h1 a:hover, #header #logo a, #header #logo a:hover { color: #fff; }
 
+
+
 #nav {
     text-align: right;
-    padding: 3em 0;
+    padding: 2.3em 0 1em 0;
 }
 #nav ul {
     list-style: none;
@@ -169,7 +177,7 @@ body { display: flex; flex-direction: column; }
 }
 
 .splash-button {
-    background: #1a9752;
+    background: #26a269;
 }
 
 
@@ -217,7 +225,7 @@ p, hr, table, .table-responsive, ol, ul, dl, pre, blockquote, fieldset {
 }
 
 a {
-    color: #0d8040;
+    color: #1c774d;
     text-decoration: none;
     -webkit-transition: color .2s ease-in;
             transition: color .2s ease-in;
