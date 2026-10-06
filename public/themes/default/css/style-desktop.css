@@ -209,6 +209,12 @@ body { display: flex; flex-direction: column; }
     text-align: center;
 }
 
+.download-icon-note {
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+}
+
 /*** TYPOGRAPHY ***/
 
 html { font-size: 16px; }

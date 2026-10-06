@@ -192,6 +192,12 @@ body { display: flex; flex-direction: column; }
     text-align: center;
 }
 
+.download-icon-note {
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+}
+
 /*** BASIC LAYOUT: MOBILE ***/
 
 @media (max-width: 780px) {
