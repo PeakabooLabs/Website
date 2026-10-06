@@ -201,6 +201,7 @@ body { display: flex; flex-direction: column; }
 .download-icon {
     display: inline-block; 
     padding: 25px;
+    vertical-align: top;
 }
 
 .download-icon-label {
@@ -211,6 +212,9 @@ body { display: flex; flex-direction: column; }
 
 .download-icon-note {
     display: block;
+    /* wrap to the icon's width rather than widening it */
+    width: 0;
+    min-width: 100%;
     text-align: center;
     font-size: 0.8em;
 }
