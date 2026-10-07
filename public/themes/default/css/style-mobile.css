@@ -11,10 +11,12 @@
 
 
 
-#main { 
-    padding: 2em 0 1em; 
+#main {
+    padding: 2em 0 1em;
     margin-top: 6.5em;
 }
+
+html { scroll-padding-top: 7.5em; }
 
 #nav {
     clear: right;
