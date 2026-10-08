@@ -68,7 +68,7 @@ body { display: flex; flex-direction: column; }
 /*** BASIC LAYOUT: HEADER ***/
 
 #header {
-    background: #26a269;
+    background: #4ba67c;
     position: fixed;
     width: 100%;
     border-bottom: 4px solid #ffc040;
@@ -189,7 +189,7 @@ body { display: flex; flex-direction: column; }
 }
 
 .splash-button {
-    background: #26a269;
+    background: #4ba67c;
 }
 
 
