@@ -43,6 +43,9 @@
 
 html, body { height: 100%; }
 
+/* keep anchor targets clear of the fixed header */
+html { scroll-padding-top: 6em; }
+
 body { display: flex; flex-direction: column; }
 #main { flex: 1 0 auto; }
 #header, #footer { flex: 0 0 auto; }
@@ -65,10 +68,11 @@ body { display: flex; flex-direction: column; }
 /*** BASIC LAYOUT: HEADER ***/
 
 #header {
-    background: #26a269;
+    background: #4ba67c;
     position: fixed;
     width: 100%;
-    border-bottom: 4px solid #ffc040;
+    border-bottom: 5px solid #ffc040;
+    box-shadow: 0px 0px 5px -2px black;
 }
 
 #header h1, #header #logo {
@@ -186,7 +190,7 @@ body { display: flex; flex-direction: column; }
 }
 
 .splash-button {
-    background: #26a269;
+    background: #4ba67c;
 }
 
 
@@ -201,12 +205,22 @@ body { display: flex; flex-direction: column; }
 .download-icon {
     display: inline-block; 
     padding: 25px;
+    vertical-align: top;
 }
 
 .download-icon-label {
     display: inline-block; 
     width: 100%; 
     text-align: center;
+}
+
+.download-icon-note {
+    display: block;
+    /* wrap to the icon's width rather than widening it */
+    width: 0;
+    min-width: 100%;
+    text-align: center;
+    font-size: 0.8em;
 }
 
 /*** TYPOGRAPHY ***/
